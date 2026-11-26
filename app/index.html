@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HearthLedger — The Hartono Household Budget, November 2026</title>
+<meta name="description" content="HearthLedger: the Hartono household's budget for November 2026 — income, spending, budgets, savings goals and bills, every figure computed from the household's own transactions. Works offline.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231f4d3a'/%3E%3Ctext x='16' y='23' font-size='18' text-anchor='middle' fill='%23f2b544'%3E%E2%8C%82%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap head-in">
+    <a class="brand" href="#/"><span class="brand-mark" aria-hidden="true">⌂</span> HearthLedger</a>
+    <nav id="topnav" aria-label="Sections">
+      <a href="#/">Dashboard</a>
+      <a href="#/transactions">Transactions</a>
+      <a href="#/budgets">Budgets</a>
+      <a href="#/goals">Goals</a>
+      <a href="#/bills">Bills</a>
+      <a href="#/reports">Reports</a>
+    </nav>
+    <span class="month-pill">November 2026</span>
+  </div>
+</header>
+<main id="app" class="wrap"></main>
+<footer class="site-foot">
+  <div class="wrap foot-in">
+    <p><strong>HearthLedger</strong> — the Hartono household budget book. Figures are the household&rsquo;s own records for November 2026, as of the 26th. Plain static files: no account, no server, no network.</p>
+    <p><a href="#/about">About this site</a> · <a href="#/transactions">Transactions</a> · <a href="#/budgets">Budgets</a> · <a href="#/goals">Goals</a> · <a href="#/bills">Bills</a> · <a href="#/reports">Reports</a></p>
+  </div>
+</footer>
+<script src="data.js"></script>
+<script src="charts.js"></script>
+<script src="views.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
